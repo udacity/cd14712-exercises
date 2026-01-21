@@ -1,0 +1,16 @@
+[project]
+name = "mcp-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "anthropic>=0.64.0",
+    "bs4>=0.0.2",
+    "firecrawl-py>=2.16.5",
+    "gradio[mcp]>=4.44.1",
+    "ipykernel>=6.30.1",
+    "mcp>=1.10.1",
+    "textblob>=0.19.0",
+]
